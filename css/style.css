@@ -36,8 +36,8 @@ body {
 /* Header
 ------------------------------------------------------------*/
 .box {
-  background-image: url("https://www.pakutaso.com/shared/img/thumb/kakurerukijishironeko171027_TP_V1.jpg");
-  height: 500px;
+  background-image: url("../images/neko.jpg");
+  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center center; }
@@ -103,6 +103,9 @@ footer {
   font-size: 1.5rem; }
 
 @media (min-width: 769px) {
+  .box {
+    height: 500px; }
+
   #aruaru .container {
     -webkit-flex-direction: row;
     flex-direction: row;
